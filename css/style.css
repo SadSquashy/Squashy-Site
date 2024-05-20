@@ -21,3 +21,7 @@ a {
 .helpme {
     color: #b4b4b4;
 }
+.button {
+    border: none !important;
+    background-color: #b4b4b4;
+}
