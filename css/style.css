@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: b4b4b4;
+    color: #b4b4b4;
 }
 
 .about {
@@ -21,10 +21,16 @@ a {
 .helpme {
     color: #b4b4b4;
 }
+
 .button {
     border: none !important;
     background-color: #b4b4b4;
 }
+
+.button:hover {
+    background-color: #c9c9c9;
+}
+
 .car3 {
     width: 219px !important;
     height: 230px !important;
@@ -32,4 +38,35 @@ a {
 .banner {
     width: 100% !important;
     height: 15% !important;
+}
+
+.yap {
+    color: #b4b4b4;
+}
+
+#start {
+    clear:both;
+    max-height:200px;
+    width: 100%;
+    
+    }
+    #start h1 {
+      display: inline-block;
+    }
+    #start img   {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.begining {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-size: 100px;}
+.begining img {
+    width: 150px;
+    height: 150px;
 }
